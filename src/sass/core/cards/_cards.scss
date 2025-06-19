@@ -1,0 +1,40 @@
+.cartBox{
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;    
+    box-shadow: 0px 5px 10px 0px #F6F6F6;
+    margin-bottom: 20px;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .cardContent{
+        background: #000000;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.7) 80%);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        padding:20px 30px;
+        display: grid;
+        align-content: end;
+
+        h3{
+            font-size: 1.375rem;
+            line-height: 30px;
+            margin-bottom: 12px;
+            color: var(--gray-0);
+            font-weight: 600;
+        }
+
+        p{
+            font-size: 1rem;
+            line-height: 18px;
+            color: var(--gray-300);
+            font-weight: 300;
+        }
+
+    }
+}

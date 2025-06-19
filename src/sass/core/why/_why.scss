@@ -1,0 +1,170 @@
+.whyFlex{    
+    padding: 100px 0;
+    overflow: hidden;
+
+    .whyMainContent{
+        width: 80%;
+    }    
+
+    p{
+        color: var(--gray-500);
+        line-height: 35px;
+        margin-bottom: 20px;
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    .whyUl{
+        li{
+            color: var(--gray-800);
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-bottom: 25px;
+            position: relative;
+            padding-left: 25px;
+
+            &::before{
+                position: absolute;
+			    background: url('../assets/check-circle.svg') no-repeat;
+			    width: 16px;
+			    height: 16px;
+			    left: 0;
+			    top: 5px;
+			    content: "";
+			    transition: transform 0.3s ease-out;
+            }
+
+            &:hover::before{
+                transform: translate(5px, 0px);
+            }
+        }
+    }
+}
+
+.whyImg{
+    position: relative;
+
+    .rocket{
+        position: absolute;
+        left: -70px;
+        top: -40px;
+        z-index: 9;
+        animation: rocketMove 4s ease 1s infinite;
+    }
+
+    .purple-circle{
+        position: absolute;
+        right: -20px;
+        bottom: -120px;
+    }
+
+    .why-dots{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .why-qutote{
+        position: absolute;
+        left:22%;
+        bottom: -30px;
+        background: var(--gray-100);
+        border: 2px solid var(--gray-0);
+        border-radius: 14px;
+        padding: 13px 25px;
+        display: flex;
+        font-size: 1.25rem;
+        line-height: 25px;
+        font-weight: 500;
+        color: var(--gray-700);
+        gap: 10px;
+        align-items: center;
+        width: 40%;        
+        box-shadow: -5.304px 5.304px 20px 0px rgba(0, 1, 26, 0.06);
+        backdrop-filter: blur(16px);
+        animation: slide_left_right 2s ease-in-out infinite alternate both;
+        -webkit-animation: slide_left_right 2s ease-in-out infinite alternate both;
+
+        img{
+            width: 37px;
+        }
+
+        span{
+            width: 70%;
+        }
+    }
+
+    .why-girl-img{
+        position: relative;   
+        overflow: hidden;
+        border-radius: 25px;
+        border: 3px solid var(--gray-0);    
+        width: 83%;
+        animation: slide_up_down 2s ease-in-out infinite alternate both;
+        -webkit-animation: slide_up_down 2s ease-in-out infinite alternate both;
+        
+        img{
+            width: 100%;            
+        }
+    }
+}
+
+@keyframes rocketMove {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 50%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-0%, 0%) rotate(0);
+  }
+
+  60% {
+    transform: translate(-0%, 0%) rotate(3deg);
+  }
+
+  65% {
+    transform: translate(-0%, 0%) rotate(0);
+  }
+
+  70% {
+    transform: translate(-0%, 0%) rotate(3deg);
+  }
+
+  75% {
+    transform: translate(-0%, 0%) rotate(0);
+  }
+
+  80% {
+    transform: translate(-0%, 0%) rotate(3deg);
+  }
+
+  100% {
+    transform: translate(200%, -200%) rotate(0);
+  }
+}
+
+@keyframes slide_up_down {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  to {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes slide_left_right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}

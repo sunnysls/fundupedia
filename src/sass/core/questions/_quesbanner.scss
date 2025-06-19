@@ -1,0 +1,45 @@
+.quesbanner_flex{
+    figure{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.clinic_text{
+    margin: 50px 0 100px;
+    text-align: center;
+
+    p{
+        color: #666666;
+        margin-bottom: 20px;
+        font-size: 1.563rem;
+        font-weight: 300;
+    }
+}
+
+.clinic_cta{
+    text-align:center;
+     display: flex;
+     justify-content: center;     
+
+    a{        
+        background: var(--red-clr);
+        font-size: 1.563rem;
+        font-weight: 500;
+        color: var(--gray-0);
+        transition: all 0.2s ease-out;
+        padding: 10px 20px;
+        border-radius: 6px;  
+        display: flex;
+        align-items: center;
+
+        &:hover{
+            background: var(--primary-dark);
+        }
+        
+        img{
+            display: inline;
+        }
+    }
+}

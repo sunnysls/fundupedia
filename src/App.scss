@@ -1,0 +1,40 @@
+.funduAvatar{
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  z-index: 9;
+}
+
+.whySubtitle {
+  font-size: 0.875rem;
+  line-height: 15px;
+  font-weight: 500;
+  color: var(--purple-clr-500);
+  margin-bottom: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: var(--purple-clr-200);
+}
+
+.Whytitle {
+  color: var(--gray-900);
+  font-size: 2.75rem;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  span {
+    display: table-row;
+    background: linear-gradient(
+      90deg,
+      var(--blue-clr-600) 35.71%,
+      var(--purple-clr) 77.78%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

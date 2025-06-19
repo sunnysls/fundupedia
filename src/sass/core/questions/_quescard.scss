@@ -1,0 +1,48 @@
+.quescard_flex{
+    border-radius: 10px;
+    border: 1px solid #F1F1F2;
+    background:var(--gray-0);
+    box-shadow: 0px 5px 10px 0px #F8F8F8;
+    margin-bottom: 30px;
+    transition: all 0.2s ease-out;
+
+    &:hover{
+        box-shadow: 0px 5px 10px 0px #e2e0e0;
+    }
+}
+
+.quescontent{
+    padding: 25px;
+
+    .quesheading{
+        color: var(--primary-default);
+        font-size: 1.125rem;
+        margin-bottom: 25px;
+    }
+
+    .quesImg{        
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.quesfooter{
+        border-top: 1px solid #F1F1F2;
+        padding:20px 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .quesdate{
+        color:var(--gray-250);
+        font-size: 0.938rem;
+        font-weight: 300;
+    }
+
+    .quesadmin{
+        color:var(--gray-700);
+        font-size: 0.938rem;
+        font-weight: 300;
+    }

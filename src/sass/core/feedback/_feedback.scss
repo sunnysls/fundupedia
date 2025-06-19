@@ -1,0 +1,119 @@
+.feedbackFlex {
+  background: var(--gray-100);
+  padding: 100px 0;
+}
+
+.feedbackTittle {
+  text-align: center;
+
+  .whySubtitle {
+    color: var(--primary-dark);
+    background: var(--blue-clr-200);
+  }
+
+  .Whytitle {
+    margin-bottom: 30px;
+
+    span {
+      display: inline-block;
+    }
+  }
+}
+
+.rbt-feedback-box {
+  position: relative;
+  z-index: 2;
+}
+
+.inner {
+  position: relative;
+  padding: 40px 30px 30px;
+  z-index: 2;
+  background: var(--gray-0);
+  border-radius: 6px;
+  box-shadow: 0px 5px 10px 0 rgba(238, 238, 241, 0.44);
+
+  &::before {
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 5px;
+    z-index: -1;
+    background: url("../assets/quote.svg") no-repeat;    
+    width: 69px;
+    height: 69px;
+  }
+}
+
+.clint-info-wrapper{
+    display: flex;
+    align-items: center;
+
+    .thumb{
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        height: 70px;
+        padding: 3px;
+        background: var(--gray-0);
+        border-radius: 100%;
+        overflow: hidden;
+        min-width: 70px;
+        border: 2px solid #2f57ef21;
+
+        img{
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+            border-radius: 100%;
+        }
+    }
+
+    .client-info {
+        padding-left: 15px;
+
+        .title{
+            font-size: 1.125rem;
+            margin-bottom: 5px;
+            color: var(--gray-800);
+            font-weight: 600;
+        }
+
+        span {
+            line-height: 28px;
+            display: inline-block;
+            font-size: 1rem;
+            color: var(--gray-500);
+            font-weight: 300;
+        }
+    }
+}
+
+.description{
+    margin-top: 20px;
+
+    p{
+        font-size:1.125rem;
+        color: var(--gray-550);
+        font-weight: 300;
+        line-height: 28px;
+    }
+
+    .item-rating {
+        margin-top: 20px;
+        gap: 5px;
+
+        li{
+            margin: 10px 0;
+
+            svg{
+                color:var(--yellow-clr);
+                font-size: 0.813rem;
+            }
+        }
+    }
+}
+
+.slick-slide > div {
+    margin: 25px 10px;
+}

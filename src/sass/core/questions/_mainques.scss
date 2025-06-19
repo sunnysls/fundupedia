@@ -1,0 +1,28 @@
+.mainques_flex{
+    margin-bottom: 40px;
+}
+
+.mainques{
+    margin-bottom: 50px;
+    
+    figure{
+        margin-bottom: 40px;
+    }
+
+    button, a{
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        color: var(--gray-0);
+        background: var(--primary-default);   
+        border: none;
+        border-radius: 5px;
+        font-weight: 300;     
+        padding: 6px 20px;
+        transition: all 0.2s ease-out;
+        display: inline-block;
+
+        &:hover{
+            background: var(--primary-dark);
+        }
+    }
+}
