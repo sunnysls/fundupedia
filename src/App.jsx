@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Why from "./components/Why";
 import Cards from "./components/cards/Cards";
-import Feedback from "./components/feedback/feedback";
+import Feedback from "./components/feedback/Feedback";
 import Cartpop from "./components/ecartshop/Cartpop";
 import FunduAvatar from "./assets/fundu-avatar.svg";
 import { BrowserRouter, Routes, Route } from "react-router";
