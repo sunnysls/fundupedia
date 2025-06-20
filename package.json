@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sunnysls.github.io/fundupedia",
   "name": "fundupedia-14may25",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://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@github.com/sunnysls/fundupedia.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
