@@ -33,14 +33,14 @@ footer {
 
     a{
         display: inline-block;
-        border: 2px solid var(--yellow-500);
+        border: 2px solid var(--primary-default);
         padding: 10px 30px;
-        border-radius: 30px;
-        color: var(--yellow-500);
+        border-radius: 8px;
+        color: var(--primary-default);
         transition: all 0.2s ease-out;
 
         &:hover{
-            background: var(--yellow-500);
+            background: var(--primary-default);
             color: var(--gray-950);
         }
     }
@@ -48,7 +48,7 @@ footer {
 
   .footer_heading {
     position: relative;
-    color: var(--yellow-500);
+    color: var(--primary-default);
     font-size:1.25rem;
     font-weight: 400;
     margin-bottom: 25px;

@@ -1,0 +1,48 @@
+.leftPanel_flex{
+    background: var(--gray-100);
+    padding: 25px 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px #F6F6F6;
+    border: 1px solid var(--gray-150);
+    position: sticky;
+    top: 120px;
+
+    .field_wrap{
+        margin-bottom: 10px;
+
+        button, a{
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        color: var(--gray-0);
+        background: var(--primary-default);   
+        border: none;
+        border-radius: 5px;
+        font-weight: 300;     
+        padding: 6px 20px;
+        transition: all 0.2s ease-out;
+        display: inline-block;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+
+        &:hover{
+            background: var(--primary-dark);
+        }
+    }
+    }
+
+    .form-label{
+        color: var(--gray-800);
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .form-select{
+        border-radius: 5px;        
+        border: 1px solid var(--gray-150);
+        font-size: 0.938rem;
+        font-weight: 300;
+        color: var(--gray-450);
+    }
+}

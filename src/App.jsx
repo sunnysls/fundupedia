@@ -10,6 +10,8 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Queslisting from "./components/quesans/Queslisting";
 import Mainques from "./components/quesans/Mainques";
 import Mainans from "./components/quesans/Mainans";
+import Archive from "./components/archive/Archive";
+import Archivequelist from "./components/archive/Archivequelist";
 
 function App() {
   return (
@@ -35,7 +37,9 @@ function App() {
 
           <Route path="/queslisting" element={<Queslisting />} />
           <Route path="/mainques" element={<Mainques />} />
-          <Route path="/mainans" element={<Mainans />} />
+          <Route path="/mainans" element={<Mainans />} />          
+          <Route path="/archivejeemain" element={<Archive />} />          
+          <Route path="/archivequelist" element={<Archivequelist />} />          
         </Routes>
 
         <Footer />

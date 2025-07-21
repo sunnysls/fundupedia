@@ -5,8 +5,7 @@ import { Link } from "react-router";
 function Quescard() {
   return (
     <>
-      <div className="col-md-6">
-        <div className="quescard_flex">
+      <div className="quescard_flex">
           <Link to="/mainques">
             <div className="quescontent">
               <div className="quesheading">Maths</div>
@@ -21,8 +20,7 @@ function Quescard() {
               <div className="quesadmin">By admin</div>
             </div>
           </Link>
-        </div>
-      </div>
+        </div>      
     </>
   );
 }

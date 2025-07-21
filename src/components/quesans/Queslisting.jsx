@@ -17,21 +17,37 @@ function Queslisting() {
                     </div>
                     <div className="col-md-9">
                         <div className="row">
-                           <Quescard />
-                           <Quescard />
-                        </div>
+                            <div className="col-md-6">
+                                <Quescard />
+                            </div>
+                            <div className="col-md-6">
+                                <Quescard />
+                            </div>
+                        </div>                    
                         <div className="row">
-                           <Quescard />
-                           <Quescard />
-                        </div>
+                            <div className="col-md-6">
+                                <Quescard />
+                            </div>
+                            <div className="col-md-6">
+                                <Quescard />
+                            </div>
+                        </div>                    
                         <div className="row">
-                           <Quescard />
-                           <Quescard />
-                        </div>
+                            <div className="col-md-6">
+                                <Quescard />
+                            </div>
+                            <div className="col-md-6">
+                                <Quescard />
+                            </div>
+                        </div>                    
                         <div className="row">
-                           <Quescard />
-                           <Quescard />
-                        </div>
+                            <div className="col-md-6">
+                                <Quescard />
+                            </div>
+                            <div className="col-md-6">
+                                <Quescard />
+                            </div>
+                        </div>                    
                     </div>
                 </div>
             </div>

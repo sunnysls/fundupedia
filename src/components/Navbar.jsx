@@ -223,9 +223,7 @@ function Navbar() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
-                        JEE Main
-                      </a>
+                      <Link to="/archivejeemain" className="dropdown-item">JEE Main</Link>                      
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
